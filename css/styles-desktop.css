@@ -1,0 +1,222 @@
+@import "./styles-tablet.css";
+
+@media screen and (min-width: 1158px) {
+  .header {
+    padding: 0px;
+  }
+
+  .container {
+    width: 1158px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero {
+    margin: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+    background-position: center;
+  }
+
+  .logo-top {
+    margin-right: 76px;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-left: 332px;
+  }
+
+  .contact-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .address-text {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-style: normal;
+    width: 153px;
+  }
+
+  /* HERO */
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    margin-bottom: 48px;
+  }
+
+  .hero.container {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+  }
+
+  /* ADVANTAGES */
+
+  .advantages-svg {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+
+  .advantages-icon-block {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .advantages-list {
+    width: 1158px;
+    margin: 0px;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .address-item:first-child {
+    margin-right: 40px;
+  }
+
+  .advantages-text {
+    margin: 0px;
+    width: 264px;
+  }
+
+  .advantages {
+    padding-top: 120px;
+  }
+
+  .advantages-header-text {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+
+  .paragraph {
+    padding-top: 0;
+    min-width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  /* WHAT ARE WE DOING (SECTION 3) */
+
+  .third-section {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .third-section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--therd-section-title-color);
+  }
+
+  .list {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container-list > .list {
+    gap: 24px;
+  }
+
+  .container-list {
+    margin-top: 72px;
+  }
+
+  /* TEAM */
+
+  .team-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* FOOTER */
+
+  .foot {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-left: 16px;
+    flex-wrap: nowrap;
+  }
+
+  .footer-network {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .footer-text-container {
+    margin: 0px;
+    margin-right: 120px;
+  }
+
+  .subscribe {
+    margin: 0px;
+    margin-left: 80px;
+  }
+
+  .form-ppp {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--footer-hero-bg-color);
+
+    padding-left: 16px;
+    margin-right: 24px;
+  }
+
+  .input-text-footer {
+    margin: 0px;
+  }
+}
