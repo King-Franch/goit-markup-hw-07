@@ -168,6 +168,64 @@
   .team-section {
     padding-left: 0px;
     padding-right: 0px;
+    margin: 0px;
+  }
+
+  /* COSTOMERS */
+
+  /* <!--/////// COSTOMERS (SECTION 5) ///////--> */
+
+  .costomers {
+    margin: 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .costomers-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .costomers-list {
+    list-style-type: none;
+  }
+
+  .costomers-icon {
+    width: 104px;
+    height: 56px;
+  }
+
+  .costomers-container {
+    margin-top: 72px;
+    gap: 24px;
+  }
+
+  .costomers-item {
+    width: 168px;
+    height: 88px;
+    list-style-type: none;
+  }
+
+  .costomers-link {
+    width: 168px;
+    height: 88px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    fill: #afb1b8;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+
+    transition-duration: 250ms;
+    transition-property: fill border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .costomers-link:focus,
+  .costomers-link:hover {
+    fill: #404bbf;
+    border-color: #404bbf;
   }
 
   /* FOOTER */
@@ -210,6 +268,7 @@
     border: 1px solid #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    color: #ffffff;
     background-color: var(--footer-hero-bg-color);
 
     padding-left: 16px;
