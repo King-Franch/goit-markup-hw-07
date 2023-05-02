@@ -70,6 +70,8 @@
     background-color: var(--ocean-color);
     fill: var(--white-color);
   }
+  .button-icon_menu {
+  }
 
   .nav-menu {
     padding-top: 80px;
