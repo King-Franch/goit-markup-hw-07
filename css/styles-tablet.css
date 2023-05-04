@@ -253,10 +253,17 @@
 
   /* FOOTER */
 
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 108px;
+  }
+
   .footer-network {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 72px;
   }
 
@@ -294,9 +301,8 @@
 
   .subscribe {
     width: 453px;
+    margin: 0px;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .subscribe-form-input {
